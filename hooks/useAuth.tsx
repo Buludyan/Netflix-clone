@@ -106,7 +106,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       error,
       signUp,
       signIn,
-      logout,
+      logout, 
     }),
     [user, loading, error]
   );
